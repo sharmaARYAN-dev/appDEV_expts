@@ -1,60 +1,4 @@
-node_modules/
-.expo/
-build/
-android/
-ios/
-.vscode/
-*.log
-.DS_Store
-expt7/form/node_modules/
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# Node dependencies
 node_modules/
 
 # Expo
@@ -62,6 +6,26 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
+
+# Build directories
+build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
+app-example
+
+# Android
+/android/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS
+/ios/
 
 # Native
 .kotlin/
@@ -75,23 +39,39 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
-# debug
+# Logs
+*.log
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history
+.svn/
+.swiftpm/
+*.class
+*.pyc
+*.swp
 
 # macOS
 .DS_Store
 *.pem
 
-# local env files
+# Env files
 .env*.local
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 
-app-example
-
-# generated native folders
-/ios
-/android
+# Miscellaneous
+app.*.symbols
+app.*.map.json
+migrate_working_dir/
+.build/
+.buildlog/

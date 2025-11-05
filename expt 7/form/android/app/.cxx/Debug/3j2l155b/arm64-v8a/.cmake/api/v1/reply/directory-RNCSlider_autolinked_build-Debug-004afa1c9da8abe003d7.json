@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "RNCSlider_autolinked_build",
+		"source" : "/home/aryansharma/Documents/aryan.dev/appdev/expt 7/form/node_modules/@react-native-community/slider/android/src/main/jni"
+	}
+}
