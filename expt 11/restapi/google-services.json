@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208016011755",
+    "project_id": "expt11fauth",
+    "storage_bucket": "expt11fauth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208016011755:android:882ad25c5509b8e95ba9ae",
+        "android_client_info": {
+          "package_name": "com.firebase.expt11auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-5kBMzeeVEsBHXWHhDjqbSa2ZXSaJlRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
